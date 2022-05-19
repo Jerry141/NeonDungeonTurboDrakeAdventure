@@ -33,7 +33,7 @@ def main() -> None:
         screen_width,
         screen_height,
         tileset=tileset,
-        title="Neon Synthwave Dungeon", # TODO find better name
+        title="NEON DUNGEON TURBO DRAKE ADVENTURE",
         vsync=True,
     ) as context:
         # creating console to write to
