@@ -1,0 +1,8 @@
+# Saved games
+*.sav
+
+# virtual env
+venv/
+
+# pyache
+__pycache__/
