@@ -386,8 +386,14 @@ class MainGameEventHandler(EventHandler):
 
         # key holds pressed key without modifiers
         key = event.sym
+        modifier = event.mod
 
         player = self.engine.player
+
+        if key == tcod.event.K_PERIOD and modifier & (
+            tcod.event.KMOD_SHIFT | tcod.event.KMOD_RSHIFT
+        ):
+            return actions.TakeStairsAction(player)
 
         # if statements to define actions for keys pressed
         # first if statements for movement keys

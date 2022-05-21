@@ -39,21 +39,21 @@ health_potion = Item(
 )
 
 neon_scroll = Item(
-    char="~",
+    char="?",
     color=(255,144,31),
     name="Neon Bolt Chip",
     consumable=consumable.NeonDamageConsumable(damage=20, maximum_range=5),
 )
 
 confusion_scroll = Item(
-    char="~",
+    char="?",
     color=(242,34,255),
     name="Confusion Chip",
     consumable=consumable.ConfusionConsumable(number_of_turns=10)
 )
 
 neonball_scroll = Item(
-    char="~",
+    char="?",
     color=(249, 172, 83),
     name="Neonball Chip",
     consumable=consumable.NeonballDamageConsumable(damage=12, radius=3)
