@@ -2,6 +2,7 @@ from components.ai import BaseAI, HostileEnemy
 from components import consumable
 from components.fighter import Fighter
 from components.inventory import Inventory
+from components.level import Level
 from entity import Actor, Item
 
 
@@ -11,7 +12,8 @@ player = Actor(
     name="Drake", 
     ai_cls=HostileEnemy,
     fighter=Fighter(hp=30, defense=2, power=5),
-    inventory=Inventory(capacity=30)
+    inventory=Inventory(capacity=30),
+    level=Level(level_up_base=200)
 )
 
 commoner = Actor(
@@ -20,15 +22,17 @@ commoner = Actor(
     name="Commoner", 
     ai_cls=HostileEnemy,
     fighter=Fighter(hp=10, defense=0, power=3),
-    inventory=Inventory(capacity=0)
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=35)
 )
 templar = Actor(
     char="T", 
     color=(21, 60, 180), 
     name="Templar", 
     ai_cls=HostileEnemy,
-    fighter=Fighter(hp=20, defense=3, power=4),
-    inventory=Inventory(capacity=0)
+    fighter=Fighter(hp=18, defense=2, power=4),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=100)
 )
 
 health_potion = Item(
