@@ -13,3 +13,4 @@ __pycache__/
 # pyinstaller build files
 dist/
 build/
+output/
