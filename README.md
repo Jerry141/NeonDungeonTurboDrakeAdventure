@@ -38,7 +38,7 @@ Enemies:
 Items:
 - Neon Blood Vial [!] - Blood Vial contaminated by the large amount of Neon - for mere human it is like a drug, easy to get addicted to it and loose sanity trying to find more and more. For Drake, it is great source of Health, fantastic to regain Vitals before next fights.
 - Neon Bolt Chip [~] - This Chip contains technology to cast Neon Bolt, harming enemies by dealing them massive damage.
-- Confusion Chip [~] -  This Chip contains technology to cast Confusion "spell", making enemies loosing their mind for a brief moment.
+- Confusion Chip [~] -  This Chip contains technology to cast Confusion "spell", making enemies lose their mind for a brief moment.
 - Neonball Chip [~] - This Chip contains technilogy on how to cast Neonball, powerfull AoE spell, dealing damage on fairly wide range.
 
 Equipment:
