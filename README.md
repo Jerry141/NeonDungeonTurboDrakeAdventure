@@ -44,8 +44,8 @@ Items:
 Equipment:
 - Neon Dagger [/] - Simple dagger infused with Neon, probably due to long exposure within the dungeon. Great for dealing with small threats
 - Neon Saber [/] - Saber greatly infused with Neon, can be found in lower levels of the dungeon, probably was used by previous residents of this place, an elegant weapon for a more civilized age.
-- Light Armor [[] - Light armor, providing small amount of defense, but even that is better than nothing and can save your life.
-- Medium Armor [[] - Medium armor, providing moderate amount of defense, great for more powerful enemies.
+- Light Armor [ [ ] - Light armor, providing small amount of defense, but even that is better than nothing and can save your life.
+- Medium Armor [ [ ] - Medium armor, providing moderate amount of defense, great for more powerful enemies.
 
 
 ## Screenshots
