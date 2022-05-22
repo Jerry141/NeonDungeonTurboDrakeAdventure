@@ -13,8 +13,8 @@ player = Actor(
     name="Drake", 
     ai_cls=HostileEnemy,
     equipment=Equipment(),
-    fighter=Fighter(hp=30, base_defense=2, base_power=5),
-    inventory=Inventory(capacity=30),
+    fighter=Fighter(hp=30, base_defense=0, base_power=3),
+    inventory=Inventory(capacity=20),
     level=Level(level_up_base=200)
 )
 
@@ -37,6 +37,28 @@ templar = Actor(
     fighter=Fighter(hp=18, base_defense=2, base_power=4),
     inventory=Inventory(capacity=0),
     level=Level(xp_given=100)
+)
+
+hunter = Actor(
+    char="H",
+    color=(246, 46, 151),
+    name="Hunter",
+    ai_cls=HostileEnemy,
+    equipment=Equipment(),
+    fighter=Fighter(hp=20, base_defense=2, base_power=7),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=200)
+)
+
+neon_addict = Actor(
+    char="a",
+    color=(233, 60, 172),
+    name="Neon addict",
+    ai_cls=HostileEnemy,
+    equipment=Equipment(),
+    fighter=Fighter(hp=5, base_defense=0, base_power=10),
+    inventory=Inventory(capacity=0),
+    level=Level(xp_given=60)
 )
 
 health_potion = Item(
