@@ -6,3 +6,10 @@ venv/
 
 # pyache
 __pycache__/
+
+# exe file
+*.exe
+
+# pyinstaller build files
+dist/
+build/
