@@ -31,21 +31,19 @@ Python 3.10
 
 
 ## Content
-Content already in the game:
-
-Enemies:
+### Enemies:
 - Commoner [C] - Low class human, for some reason there are many of them in the dungeon. They posses no real threat, easy prey for Drake.
 - Templar [T] - Templars are assigned by the Neon Church to protect the Commoners inside the dungeon, the lower you go the more you will encounter them, looks like they do not bother about the entrance anymore. Fairly powerful beings.
 - Vampire Hunter [H] - Hunters set by the Neon Church to eradicate Vampires searching the dungeon for Neon Power. Well trained and viscious against their target, even with low defenses, they are a big threat to any Vampire deciding to venture through the Dungeon.
 - Neon Addict [a]- Neon addicts are mostly commoners who were exposed to the Neon for so long that they have lost their mind and the only thing they want is to get more Neon. They are very vulnerable but due to huge exposure to the Neon, they are very strong and should be erradicated before they have a chance to attack. 
 
-Items:
+### Items:
 - Neon Blood Vial [!] - Blood Vial contaminated by the large amount of Neon - for mere human it is like a drug, easy to get addicted to it and loose sanity trying to find more and more. For Drake, it is great source of Health, fantastic to regain Vitals before next fights.
 - Neon Bolt Chip [~] - This Chip contains technology to cast Neon Bolt, harming enemies by dealing them massive damage.
 - Confusion Chip [~] -  This Chip contains technology to cast Confusion "spell", making enemies lose their mind for a brief moment.
 - Neonball Chip [~] - This Chip contains technilogy on how to cast Neonball, powerfull AoE spell, dealing damage on fairly wide range.
 
-Equipment:
+### Equipment:
 - Neon Dagger [/] - Simple dagger infused with Neon, probably due to long exposure within the dungeon. Great for dealing with small threats
 - Neon Saber [/] - Saber greatly infused with Neon, can be found in lower levels of the dungeon, probably was used by previous residents of this place, an elegant weapon for a more civilized age.
 - Light Armor [ [ ] - Light armor, providing small amount of defense, but even that is better than nothing and can save your life.
